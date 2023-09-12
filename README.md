@@ -1,7 +1,7 @@
 # Momentum-trading
 A momemtum factor simple simulation which is trading S&amp;P 500 index (SPY).
 
-Project code is here: https://www.kaggle.com/code/maksymkhanin/momentum-trading-alogrithm#Get-the-Best-Trading-Parameters-with-SVM-regression-model
+Project code is here: https://www.kaggle.com/code/maksymkhanin/momentum-trading-alogrithm
 
 # Get the Best Trading Parameters with SVM regression model
 To use a regression model from scikit-learn to optimize the trading signals, we first need to preprocess the data and create features and targets for the model. In this example, I'll use a SVM Regression model to predict the future close price based on the technical indicators calculated previously. Then use the predictions to generate trading signals. The traning data is 20% and testing data is 80%.
